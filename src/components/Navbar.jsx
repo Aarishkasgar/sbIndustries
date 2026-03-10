@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { FiMenu, FiX, FiPhone } from 'react-icons/fi';
+import { FiMenu, FiX, FiPhone, FiAward } from 'react-icons/fi';
 import { FaIndustry } from 'react-icons/fa';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -26,9 +26,16 @@ const Navbar = () => {
           <span className="flex items-center text-xs font-semibold tracking-wider">
             <FiPhone className="mr-2 text-brand-accent" /> +91 9927178675, +91 7500007845
           </span>
+          {/* NEW: ISO Certification in Top Bar */}
+          <span className="flex items-center text-xs font-bold tracking-wider text-white">
+            <FiAward className="mr-1.5 text-brand-accent" size={14} /> ISO 9001:2015 CERTIFIED
+          </span>
         </div>
-        <div>
-          <span className="font-mono bg-brand-base px-3 py-1 rounded text-brand-accent text-xs border border-slate-700">GSTIN: 09BIIPR4801H1Z3</span>
+        <div className="flex space-x-3">
+          {/* UPDATED: Correct GSTIN */}
+          <span className="font-mono bg-brand-base px-3 py-1 rounded text-brand-accent text-xs border border-slate-700">
+            GSTIN: 09BIIPR4801H1DC
+          </span>
         </div>
       </div>
 

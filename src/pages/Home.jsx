@@ -58,7 +58,7 @@ const Home = () => {
             transition={{ duration: 0.5 }}
             className="inline-block mb-4 px-4 py-1.5 rounded-full bg-brand-accent/20 border border-brand-accent/50 text-brand-accent text-xs font-bold tracking-widest uppercase"
           >
-            Muzaffarnagar's Trusted Casting Partner
+            ISO 9001:2015 Certified Casting Partner
           </motion.div>
           <motion.h1 
             initial={{ opacity: 0, y: -50 }}
@@ -94,7 +94,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* NEW: About Us Quick Intro */}
+      {/* NEW: About Us Quick Intro (Updated with Official Info) */}
       <div className="py-24 bg-slate-50 border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-16">
@@ -107,13 +107,13 @@ const Home = () => {
             >
               <h2 className="text-sm font-bold text-brand-accent tracking-[0.2em] uppercase mb-2">Who We Are</h2>
               <h3 className="text-3xl md:text-4xl font-extrabold text-brand-dark mb-6 tracking-tight">
-                Building Industrial Strength Since Establishment.
+                Building Industrial Strength Since 2020.
               </h3>
               <p className="text-slate-600 text-lg mb-6 leading-relaxed">
-                Situated opposite Krishna Palace on Roorkee Road, Muzaffarnagar, <strong className="text-brand-dark">S.B. Industries</strong> has emerged as a reliable name in the heavy manufacturing sector. We don't just melt metal; we engineer durability.
+                Situated at Khasra No. 81, opposite Krishna Palace on Roorkee Road (Sarwat), Muzaffarnagar, <strong className="text-brand-dark">S.B. Industries</strong> has emerged as a reliable name in the heavy manufacturing sector. We don't just melt metal; we engineer durability.
               </p>
               <p className="text-slate-600 text-lg mb-8 leading-relaxed">
-                Our in-house capabilities span from the initial breaking of scrap metal sand-casting to the final precision finish on our heavy-duty lathe machines. This closed-loop process ensures competitive pricing without compromising on industrial standards.
+                As a verified UDYAM and ISO 9001:2015 registered unit, our in-house capabilities span from the initial breaking of scrap metal sand-casting to the final precision finish on our heavy-duty lathe machines. This closed-loop process ensures competitive pricing without compromising on industrial standards.
               </p>
               <Link to="/about" className="inline-flex items-center text-brand-accent font-bold hover:text-brand-hover transition-colors">
                 Read Our Full Story <span className="ml-2">→</span>
@@ -207,7 +207,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* NEW: Infrastructure & Machinery */}
+      {/* Infrastructure & Machinery */}
       <div className="py-24 bg-brand-base text-white relative overflow-hidden">
         <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://images.unsplash.com/photo-1565439399-5bb8a4d4766f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -281,7 +281,7 @@ const Home = () => {
         </div>
       </div>
 
-      {/* NEW: Why Choose Us Section */}
+      {/* Why Choose Us Section (Updated) */}
       <div className="py-24 bg-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
@@ -297,8 +297,8 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} className="p-6">
               <FiCheckCircle className="text-5xl text-brand-accent mx-auto mb-4" />
-              <h3 className="text-xl font-bold text-brand-dark mb-2">Uncompromised Quality</h3>
-              <p className="text-slate-600">Strict quality control measures at every stage, from melting scrap to final machining.</p>
+              <h3 className="text-xl font-bold text-brand-dark mb-2">ISO Certified Quality</h3>
+              <p className="text-slate-600">Our ISO 9001:2015 certified process ensures strict quality control measures at every stage, from melting scrap to final machining.</p>
             </motion.div>
             <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ delay: 0.2 }} className="p-6">
               <FiClock className="text-5xl text-brand-accent mx-auto mb-4" />

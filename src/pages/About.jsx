@@ -36,7 +36,7 @@ const About = () => {
               About S.B. Industries
             </h3>
             <p className="text-slate-600 text-lg mb-4 leading-relaxed font-medium">
-              Located opposite Krishna Palace on Roorkee Road, Muzaffarnagar, S.B. Industries is a premier manufacturer specializing in heavy steel casting and precision machining.
+              Established in 2020 and located at Khasra No. 81, Opposite Krishna Palace on Roorkee Road (Sarwat), Muzaffarnagar, S.B. Industries is an ISO 9001:2015 certified premier manufacturer specializing in heavy steel casting and precision machining.
             </p>
             <p className="text-slate-600 text-lg mb-8 leading-relaxed">
               We take immense pride in our <strong className="text-brand-dark">sustainable manufacturing approach</strong>. By efficiently utilizing high-quality scrap metal, we melt and cast it into durable heavy machinery components. From the initial sand-casting phase to final heavy lathe machining, our entire process is rigorously handled in-house to ensure unmatched quality.
@@ -44,7 +44,7 @@ const About = () => {
             
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="flex items-center text-brand-dark font-bold">
-                <FiCheckCircle className="text-brand-accent mr-3" size={24}/> ISO Standard Quality
+                <FiCheckCircle className="text-brand-accent mr-3" size={24}/> ISO 9001:2015 Certified
               </div>
               <div className="flex items-center text-brand-dark font-bold">
                 <FiCheckCircle className="text-brand-accent mr-3" size={24}/> In-House Lathe Setup
@@ -60,7 +60,7 @@ const About = () => {
         </div>
       </div>
 
-      {/* 2. Leadership / Founder Section (NEW) */}
+      {/* 2. Leadership / Founder Section */}
       <div className="bg-slate-50 py-24 border-y border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div 
@@ -99,22 +99,22 @@ const About = () => {
               viewport={{ once: true }}
               className="w-full md:w-2/3"
             >
-              <h4 className="text-3xl font-extrabold text-brand-dark mb-2">Mr. Furkan</h4>
-              <p className="text-brand-accent font-bold uppercase tracking-widest text-sm mb-6">Founder & Managing Director</p>
+              <h4 className="text-3xl font-extrabold text-brand-dark mb-2">Mr. Mohd Furkan</h4>
+              <p className="text-brand-accent font-bold uppercase tracking-widest text-sm mb-6">Founder & Proprietor</p>
               
               <blockquote className="text-slate-600 text-lg italic leading-relaxed mb-6 border-l-4 border-brand-accent pl-4">
-                "Our journey at S.B. Industries started with a simple vision: to provide the heavy industries of Muzaffarnagar and beyond with casting solutions that are not only robust and precise, but also environmentally sustainable. By recycling scrap metal into high-grade machinery parts, we are building a stronger tomorrow."
+                "Since our inception in 2020, our journey at S.B. Industries started with a simple vision: to provide the heavy industries of Muzaffarnagar and beyond with casting solutions that are not only robust and precise, but also environmentally sustainable. By recycling scrap metal into high-grade machinery parts, we are building a stronger tomorrow."
               </blockquote>
               
               <p className="text-slate-600 leading-relaxed font-medium">
-                Under his expert guidance and decades of industrial experience, S.B. Industries has grown from a standard workshop into a comprehensive manufacturing unit. His hands-on approach ensures that every gear, pulley, and casing that leaves the factory meets the highest standards of durability.
+                Under his expert guidance and hands-on approach, S.B. Industries has grown rapidly into a trusted, UDYAM and ISO registered manufacturing unit. His dedication ensures that every gear, pulley, and casing that leaves the factory meets the highest industry standards.
               </p>
             </motion.div>
           </div>
         </div>
       </div>
 
-      {/* 3. Mission & Vision Section (NEW) */}
+      {/* 3. Mission & Vision Section */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           

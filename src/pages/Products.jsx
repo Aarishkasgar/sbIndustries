@@ -15,14 +15,14 @@ const products = [
   },
   {
     id: 3,
-    title: "Machined Blocks & Housings",
-    description: "Heavy metal bearing housings and custom machined blocks finished perfectly on our heavy lathe setup.",
+    title: "Agricultural & Heavy Machinery Parts",
+    description: "Durable casting components engineered specifically for agricultural, forestry, and heavy industrial equipment.",
     image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
   },
   {
     id: 4,
-    title: "Large Spoked Wheels",
-    description: "Durable, precisely balanced large metal wheels and pulleys designed for rolling mills and heavy industries.",
+    title: "Large Spoked Wheels & Pulleys",
+    description: "Precisely balanced large metal wheels, pulleys, and machined blocks finished perfectly on our heavy lathe setup.",
     image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
   }
 ];
@@ -45,7 +45,7 @@ const Products = () => {
           </h3>
           <div className="w-20 h-1 bg-brand-accent mx-auto mb-6"></div>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto font-medium">
-            We specialize in all types of steel casting works and provide end-to-end heavy machining solutions for industrial applications.
+            As an ISO 9001:2015 certified unit, we are recognized manufacturers of all types of casting products. We provide end-to-end heavy machining solutions for various industrial applications.
           </p>
         </motion.div>
 

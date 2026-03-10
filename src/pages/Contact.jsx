@@ -37,16 +37,23 @@ const Contact = () => {
               <h4 className="text-2xl font-bold text-brand-dark mb-6 border-b border-slate-100 pb-4">Contact Information</h4>
               
               <div className="space-y-6">
+                
+                {/* Location */}
                 <div className="flex items-start group">
                   <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <FiMapPin size={24} />
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg font-bold text-slate-800">Our Location</h5>
-                    <p className="text-slate-600 mt-1 font-medium">Opp. Krishna Palace, Roorkee Road,<br />Muzaffarnagar 251001 (U.P.)</p>
+                    <p className="text-slate-600 mt-1 font-medium">
+                      Khasra No. 81, Opp. Krishna Palace,<br />
+                      Roorkee Road, Sarwat,<br />
+                      Muzaffarnagar 251002 (U.P.)
+                    </p>
                   </div>
                 </div>
 
+                {/* Phone */}
                 <div className="flex items-start group">
                   <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <FiPhone size={24} />
@@ -58,22 +65,36 @@ const Contact = () => {
                   </div>
                 </div>
 
+                {/* Email (NEW) */}
+                <div className="flex items-start group">
+                  <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
+                    <FiMail size={24} />
+                  </div>
+                  <div className="ml-4">
+                    <h5 className="text-lg font-bold text-slate-800">Email Address</h5>
+                    <p className="text-slate-600 mt-1 font-medium">furqmiza@gmail.com</p>
+                  </div>
+                </div>
+
+                {/* Business Details (UPDATED) */}
                 <div className="flex items-start group">
                   <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <FiCheckCircle size={24} />
                   </div>
                   <div className="ml-4">
-                    <h5 className="text-lg font-bold text-slate-800">Business Details</h5>
-                    <p className="text-brand-accent mt-1 font-mono font-bold">GSTIN: 09BIIPR4801H1Z3</p>
+                    <h5 className="text-lg font-bold text-slate-800">Registration Details</h5>
+                    <p className="text-brand-accent mt-1 font-mono font-bold text-sm">GSTIN: 09BIIPR4801H1DC</p>
+                    <p className="text-brand-accent font-mono font-bold text-sm mt-0.5">UDYAM-UP-58-0037031</p>
                   </div>
                 </div>
+
               </div>
             </div>
 
-            {/* Google Map Embed */}
+            {/* Google Map Embed (WORKING LINK) */}
             <div className="h-64 rounded-xl overflow-hidden shadow-lg border border-slate-100">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.74637213854!2d77.62283435!3d29.47519345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1ba00983525d%3A0xc6a75ba008574871!2sMuzaffarnagar%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.74617215165!2d77.63943343361555!3d29.470512803322403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1ba00983525d%3A0xc6a65b1288fac5!2sMuzaffarnagar%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709400000000!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 

@@ -59,7 +59,8 @@ const Policies = () => {
             <ul className="list-disc list-inside text-slate-600 space-y-3 leading-relaxed">
               <li><strong>Advance Payment:</strong> A standard 50% advance payment is required to initiate the casting and molding process.</li>
               <li><strong>Final Clearance:</strong> The remaining 50% balance must be cleared against the Proforma Invoice before the final dispatch of the material from our workshop.</li>
-              <li><strong>Taxes:</strong> All prices quoted are exclusive of GST unless stated otherwise. GST will be billed strictly as per our registered GSTIN: 09BIIPR4801H1Z3.</li>
+              {/* UPDATED GSTIN HERE */}
+              <li><strong>Taxes:</strong> All prices quoted are exclusive of GST unless stated otherwise. GST will be billed strictly as per our registered GSTIN: <strong>09BIIPR4801H1DC</strong>.</li>
               <li><strong>Freight:</strong> Transportation and loading/unloading charges are to be borne by the buyer unless explicitly included in the contract.</li>
             </ul>
           </motion.section>
