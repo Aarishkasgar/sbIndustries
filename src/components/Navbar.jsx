@@ -26,13 +26,13 @@ const Navbar = () => {
           <span className="flex items-center text-xs font-semibold tracking-wider">
             <FiPhone className="mr-2 text-brand-accent" /> +91 9927178675, +91 7500007845
           </span>
-          {/* NEW: ISO Certification in Top Bar */}
+          {/* ISO Certification in Top Bar */}
           <span className="flex items-center text-xs font-bold tracking-wider text-white">
             <FiAward className="mr-1.5 text-brand-accent" size={14} /> ISO 9001:2015 CERTIFIED
           </span>
         </div>
         <div className="flex space-x-3">
-          {/* UPDATED: Correct GSTIN */}
+          {/* Correct GSTIN */}
           <span className="font-mono bg-brand-base px-3 py-1 rounded text-brand-accent text-xs border border-slate-700">
             GSTIN: 09BIIPR4801H1DC
           </span>
@@ -44,12 +44,12 @@ const Navbar = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-20 items-center">
             
-            {/* Logo */}
-            <Link to="/" className="flex items-center group">
-              <FaIndustry className="text-3xl text-brand-dark mr-3 group-hover:text-brand-accent transition-colors" />
+            {/* Logo - Mobile responsive sizing & no-wrap added */}
+            <Link to="/" className="flex items-center group flex-shrink-0">
+              <FaIndustry className="text-2xl sm:text-3xl text-brand-dark mr-2 sm:mr-3 group-hover:text-brand-accent transition-colors" />
               <div className="flex flex-col">
-                <span className="text-2xl font-extrabold text-brand-dark tracking-tight leading-none">S.B. INDUSTRIES</span>
-                <span className="text-[10px] text-slate-500 font-bold tracking-[0.2em] mt-1">STEEL CASTING WORKS</span>
+                <span className="text-xl sm:text-2xl font-extrabold text-brand-dark tracking-tight leading-none whitespace-nowrap">S.B. INDUSTRIES</span>
+                <span className="text-[8px] sm:text-[10px] text-slate-500 font-bold tracking-[0.2em] mt-1 whitespace-nowrap">STEEL CASTING WORKS</span>
               </div>
             </Link>
 
@@ -71,19 +71,21 @@ const Navbar = () => {
               </Link>
             </div>
 
-            {/* Mobile Toggle */}
-            <button className="md:hidden text-2xl text-brand-dark" onClick={() => setIsOpen(!isOpen)}>
+            {/* Mobile Toggle Button - Size fixed */}
+            <button className="md:hidden text-2xl text-brand-dark p-2 flex-shrink-0 focus:outline-none" onClick={() => setIsOpen(!isOpen)}>
               {isOpen ? <FiX /> : <FiMenu />}
             </button>
           </div>
         </div>
 
-        {/* Mobile Menu */}
+        {/* Mobile Menu - Absolute positioning added so it overlays content perfectly */}
         <AnimatePresence>
           {isOpen && (
             <motion.div 
-              initial={{ height: 0, opacity: 0 }} animate={{ height: 'auto', opacity: 1 }} exit={{ height: 0, opacity: 0 }}
-              className="md:hidden bg-white border-t border-slate-100 overflow-hidden shadow-xl"
+              initial={{ height: 0, opacity: 0 }} 
+              animate={{ height: 'auto', opacity: 1 }} 
+              exit={{ height: 0, opacity: 0 }}
+              className="md:hidden absolute left-0 w-full bg-white border-t border-slate-100 overflow-y-auto max-h-[calc(100vh-80px)] shadow-2xl origin-top"
             >
               <div className="px-4 py-4 space-y-2">
                 {navLinks.map((item) => {
@@ -97,8 +99,8 @@ const Navbar = () => {
                     </Link>
                   )
                 })}
-                <div className="pt-4 border-t border-slate-100 mt-2">
-                    <Link to="/contact" onClick={() => setIsOpen(false)} className="block text-center bg-brand-accent text-brand-dark py-3 rounded font-bold shadow-md">
+                <div className="pt-4 border-t border-slate-100 mt-2 pb-2">
+                    <Link to="/contact" onClick={() => setIsOpen(false)} className="block w-full text-center bg-brand-accent text-brand-dark py-3 rounded font-bold shadow-md">
                         Get a Quote
                     </Link>
                 </div>

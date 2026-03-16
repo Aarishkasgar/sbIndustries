@@ -100,7 +100,7 @@ const About = () => {
               className="w-full md:w-2/3"
             >
               <h4 className="text-3xl font-extrabold text-brand-dark mb-2">Mr. Mohd Furkan</h4>
-              <p className="text-brand-accent font-bold uppercase tracking-widest text-sm mb-6">Founder & Proprietor</p>
+              <p className="text-brand-accent font-bold uppercase tracking-widest text-sm mb-6">Proprietor</p>
               
               <blockquote className="text-slate-600 text-lg italic leading-relaxed mb-6 border-l-4 border-brand-accent pl-4">
                 "Since our inception in 2020, our journey at S.B. Industries started with a simple vision: to provide the heavy industries of Muzaffarnagar and beyond with casting solutions that are not only robust and precise, but also environmentally sustainable. By recycling scrap metal into high-grade machinery parts, we are building a stronger tomorrow."
