@@ -5,25 +5,25 @@ const products = [
     id: 1,
     title: "Heavy Duty Industrial Gears",
     description: "Large spur and helical gears precision-crafted for heavy machinery, capable of handling extreme loads.",
-    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+    image: "/pic1.png" 
   },
   {
     id: 2,
     title: "Industrial Pump Casings",
     description: "High-quality volute casings and custom pump housings manufactured with exact tolerances.",
-    image: "https://images.unsplash.com/photo-1565439399-5bb8a4d4766f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+    image: "/pic2.png" 
   },
   {
     id: 3,
     title: "Agricultural & Heavy Machinery Parts",
     description: "Durable casting components engineered specifically for agricultural, forestry, and heavy industrial equipment.",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+    image: "/pic3.png" 
   },
   {
     id: 4,
     title: "Large Spoked Wheels & Pulleys",
     description: "Precisely balanced large metal wheels, pulleys, and machined blocks finished perfectly on our heavy lathe setup.",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+    image: "/pic4.png" 
   }
 ];
 

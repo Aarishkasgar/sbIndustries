@@ -65,18 +65,19 @@ const Contact = () => {
                   </div>
                 </div>
 
-                {/* Email (NEW) */}
+                {/* Email */}
                 <div className="flex items-start group">
                   <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <FiMail size={24} />
                   </div>
                   <div className="ml-4">
                     <h5 className="text-lg font-bold text-slate-800">Email Address</h5>
+                    <p className="text-slate-600 font-medium">sbindustriesmzn@gmail.com</p>
                     <p className="text-slate-600 mt-1 font-medium">furqmiza@gmail.com</p>
                   </div>
                 </div>
 
-                {/* Business Details (UPDATED) */}
+                {/* Business Details */}
                 <div className="flex items-start group">
                   <div className="flex-shrink-0 bg-slate-50 p-3 rounded-full text-brand-dark group-hover:bg-brand-accent group-hover:text-white transition-colors">
                     <FiCheckCircle size={24} />
@@ -91,10 +92,10 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Google Map Embed (WORKING LINK) */}
+            {/* NEW: Updated Google Map Embed */}
             <div className="h-64 rounded-xl overflow-hidden shadow-lg border border-slate-100">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.74617215165!2d77.63943343361555!3d29.470512803322403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1ba00983525d%3A0xc6a65b1288fac5!2sMuzaffarnagar%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709400000000!5m2!1sen!2sin" 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.5123469302043!2d77.69874937532313!3d29.50142177520155!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1d06af4c3afb%3A0x9ba312353d9854ab!2sS.B.%20Industries!5e0!3m2!1sen!2sin!4v1773678678817!5m2!1sen!2sin" 
                 width="100%" 
                 height="100%" 
                 style={{ border: 0 }} 
@@ -102,6 +103,7 @@ const Contact = () => {
                 loading="lazy" 
                 referrerPolicy="no-referrer-when-downgrade"
                 title="S.B. Industries Location"
+                className="w-full h-full"
               ></iframe>
             </div>
           </motion.div>

@@ -129,7 +129,7 @@ const Home = () => {
             >
               <div className="absolute inset-0 bg-brand-accent transform translate-x-3 translate-y-3 md:translate-x-4 md:translate-y-4 rounded-xl -z-10"></div>
               <img 
-                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="/sbimg2.jpg" 
                 alt="Machining Process" 
                 className="rounded-xl shadow-xl w-full h-64 sm:h-80 md:h-[400px] object-cover border-4 border-white relative z-10"
               />
@@ -210,7 +210,7 @@ const Home = () => {
 
       {/* Infrastructure & Machinery */}
       <div className="py-16 md:py-24 bg-brand-base text-white relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://images.unsplash.com/photo-1565439399-5bb8a4d4766f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
+        <div className="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('/sbimg2.jpg')] bg-cover bg-center"></div>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-12">
             <motion.div 
@@ -235,8 +235,8 @@ const Home = () => {
               viewport={{ once: true }}
               className="w-full md:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-4 mt-8 md:mt-0"
             >
-              <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Lathe Machine" className="rounded-lg shadow-lg h-48 sm:h-64 w-full object-cover" />
-              <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Casting" className="rounded-lg shadow-lg h-48 sm:h-64 w-full object-cover sm:mt-8" />
+              <img src="/sbimg2.jpg" alt="Lathe Machine" className="rounded-lg shadow-lg h-48 sm:h-64 w-full object-cover" />
+              <img src="/img1.jpeg" alt="Casting" className="rounded-lg shadow-lg h-48 sm:h-64 w-full object-cover sm:mt-8" />
             </motion.div>
           </div>
         </div>

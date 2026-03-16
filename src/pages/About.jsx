@@ -18,7 +18,7 @@ const About = () => {
             <div className="absolute -top-4 -left-4 w-24 h-24 bg-brand-accent rounded-tl-3xl -z-10"></div>
             <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-brand-base rounded-br-3xl -z-10"></div>
             <img 
-              src="https://images.unsplash.com/photo-1565034946487-077786996e27?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+              src="/sbimg1.jpg" 
               alt="S.B. Industries Workshop" 
               className="rounded-2xl shadow-2xl w-full h-auto object-cover border-4 border-white"
             />

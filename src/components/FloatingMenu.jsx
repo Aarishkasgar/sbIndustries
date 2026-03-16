@@ -5,11 +5,11 @@ const FloatingMenu = () => {
   const phoneNumber = "919927178675"; 
   const message = "Hello S.B. Industries, I want to inquire about your steel casting and machining services.";
   
-  // Google Map Search Link (Muzaffarnagar Location)
-  const mapLink = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110204.74617215165!2d77.63943343361555!3d29.470512803322403!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c1ba00983525d%3A0xc6a65b1288fac5!2sMuzaffarnagar%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1709400000000!5m2!1sen!2sin";
+  // Real Google Map Search Link
+  const mapLink = "https://maps.app.goo.gl/CFdaRCFgEgcLeWqj7";
   
-  // Google Review Link
-  const reviewLink = "https://www.google.com/search?q=S.B.+Industries+Muzaffarnagar";
+  // Real Google Review Link
+  const reviewLink = "https://g.page/r/CatUmD01EqObEAE/review";
 
   const actionButtons = [
     { 

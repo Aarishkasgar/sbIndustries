@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { FiMapPin, FiPhone, FiArrowRight } from 'react-icons/fi';
-// Social Media Icons import kiye hain
-import { FaIndustry, FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
+// Naye Social Media Icons import kiye hain (Youtube & Google added)
+import { FaIndustry, FaFacebookF, FaInstagram, FaYoutube, FaGoogle } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -22,23 +22,24 @@ const Footer = () => {
             </p>
             <div className="bg-brand-base px-4 py-2 rounded border border-slate-700 inline-block mb-6">
               <span className="text-xs text-slate-400 block">Verified GSTIN</span>
-              <span className="font-mono text-sm text-white font-bold">09BIIPR4801H1Z3</span>
+              {/* UPDATED GSTIN */}
+              <span className="font-mono text-sm text-white font-bold">09BIIPR4801H1DC</span>
             </div>
             
-            {/* Social Media Handles */}
+            {/* Social Media Handles (Real Links Added) */}
             <h4 className="text-xs font-bold text-slate-500 uppercase tracking-widest mb-3">Connect With Us</h4>
             <div className="flex space-x-3">
-              <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
+              <a href="https://www.facebook.com/profile.php?id=61580793397197" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
                 <FaFacebookF size={18} />
               </a>
-              <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
+              <a href="https://www.instagram.com/sbsteelcasting/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
                 <FaInstagram size={18} />
               </a>
-              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
-                <FaLinkedinIn size={18} />
+              <a href="https://www.youtube.com/@sbsteelcasting" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
+                <FaYoutube size={18} />
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
-                <FaTwitter size={18} />
+              <a href="https://share.google/h6LfBnSf260hqmfX0" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-brand-base border border-slate-700 flex items-center justify-center text-slate-400 hover:bg-brand-accent hover:text-white hover:border-brand-accent transition-all shadow-md hover:-translate-y-1">
+                <FaGoogle size={18} />
               </a>
             </div>
           </div>
@@ -77,7 +78,8 @@ const Footer = () => {
             <ul className="space-y-4 text-sm">
               <li className="flex items-start">
                 <FiMapPin className="text-brand-accent mt-1 mr-3 flex-shrink-0" size={18} />
-                <span>Opp. Krishna Palace, Roorkee Road, Muzaffarnagar 251001 (U.P.)</span>
+                {/* UPDATED Address */}
+                <span>Khasra No. 81, Opp. Krishna Palace, Roorkee Road, Sarwat, Muzaffarnagar 251002 (U.P.)</span>
               </li>
               <li className="flex items-start">
                 <FiPhone className="text-brand-accent mt-1 mr-3 flex-shrink-0" size={18} />
@@ -107,9 +109,16 @@ const Footer = () => {
           </div>
           
           <div className="flex items-center bg-brand-base px-5 py-2 rounded-full border border-slate-700 shadow-inner">
-            <span className="text-xs text-slate-400 mr-2">Digital Presence crafted by</span>
-            <span className="text-sm font-extrabold text-brand-accent tracking-wide">InfiTech Creatives</span>
-          </div>
+  <span className="text-xs text-slate-400 mr-2">Digital Presence crafted by</span>
+  <a 
+    href="https://infitechcreatives.in" 
+    target="_blank" 
+    rel="noopener noreferrer"
+    className="text-sm font-extrabold text-brand-accent tracking-wide hover:text-white transition-colors cursor-pointer"
+  >
+    InfiTech Creatives
+  </a>
+</div>
         </div>
 
       </div>
