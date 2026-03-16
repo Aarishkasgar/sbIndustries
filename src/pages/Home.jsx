@@ -32,7 +32,8 @@ const Home = () => {
   ];
 
   return (
-    <div className="w-full">
+    // FIX: Added 'overflow-x-hidden' to prevent horizontal scroll issues on mobile
+    <div className="w-full overflow-x-hidden">
       
       {/* Hero Section with Video Background */}
       <div className="relative h-screen w-full flex items-center justify-center overflow-hidden">
@@ -99,8 +100,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-center gap-10 md:gap-16">
             <motion.div 
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 30 }} // Changed from x to y to prevent mobile overflow risks
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
               className="lg:w-1/2"
@@ -120,8 +121,8 @@ const Home = () => {
               </Link>
             </motion.div>
             <motion.div 
-              initial={{ opacity: 0, x: 50 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 30 }} // Changed from x: 50 to y: 30 for safe mobile rendering
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6 }}
               className="lg:w-1/2 relative w-full mt-6 lg:mt-0"
@@ -130,7 +131,7 @@ const Home = () => {
               <img 
                 src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
                 alt="Machining Process" 
-                className="rounded-xl shadow-xl w-full h-64 sm:h-80 md:h-[400px] object-cover border-4 border-white"
+                className="rounded-xl shadow-xl w-full h-64 sm:h-80 md:h-[400px] object-cover border-4 border-white relative z-10"
               />
             </motion.div>
           </div>
@@ -213,8 +214,8 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-10 md:gap-12">
             <motion.div 
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               className="w-full md:w-1/2"
             >
