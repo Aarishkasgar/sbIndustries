@@ -4,15 +4,28 @@ import { FiX, FiZoomIn } from 'react-icons/fi';
 
 // Dummy images (Aap inko baad me original images se replace kar sakte hain)
 const galleryImages = [
-  { id: 1, src: "/img1.jpeg", title: "Heavy Spur Gear" },
-  { id: 2, src: "/img2.jpeg", title: "Machined Blocks" },
-  { id: 3, src: "/img3.jpeg", title: "Pump Casing on Lathe" },
-  { id: 4, src: "/img4.jpeg", title: "Helical Gear Casting" },
-  { id: 5, src: "/img5.jpeg", title: "Large Spoked Wheel" },
-  { id: 6, src: "/img6.jpeg", title: "Scrap Metal Melting" },
-  { id: 7, src: "/img7.jpeg", title: "Precision Machining" },
-  { id: 8, src: "/img8.jpeg", title: "Factory Setup" },
-  { id: 9, src: "/img9.jpeg", title: "Raw Material Processing" },
+  { id: 1, src: "/img1.jpeg", title: "SB Industries" },
+  { id: 2, src: "/img2.jpeg", title: "SB Industries" },
+  { id: 3, src: "/img3.jpeg", title: "SB Industries" },
+  { id: 4, src: "/img4.jpeg", title: "SB Industries" },
+  { id: 5, src: "/img5.jpeg", title: "SB Industries" },
+  { id: 6, src: "/img6.jpeg", title: "SB Industries" },
+  { id: 7, src: "/img7.jpeg", title: "SB Industries" },
+  { id: 8, src: "/img8.jpeg", title: "SB Industries" },
+  { id: 9, src: "/img9.jpeg", title: "SB Industries" },
+  { id: 10, src: "/img10.jpeg", title: "SB Industries" },
+  { id: 11, src: "/img11.jpg", title: "SB Industries" },
+  { id: 12, src: "/img12.jpg", title: "SB Industries" },
+  { id: 13, src: "/img13.jpg", title: "SB Industries" },
+  { id: 14, src: "/img14.jpg", title: "SB Industries" },
+  { id: 15, src: "/img15.jpg", title: "SB Industries" },
+  { id: 16, src: "/img16.jpg", title: "SB Industries" },
+  { id: 17, src: "/img17.jpg", title: "SB Industries" },
+  { id: 18, src: "/img18.jpg", title: "SB Industries" },
+  { id: 19, src: "/img19.jpg", title: "SB Industries" },
+  { id: 20, src: "/img20.jpg", title: "SB Industries" },
+  { id: 21, src: "/img21.jpg", title: "SB Industries" },
+
 ];
 
 const Gallery = () => {
