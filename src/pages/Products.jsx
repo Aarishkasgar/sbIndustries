@@ -15,8 +15,8 @@ const products = [
   },
   {
     id: 3,
-    title: "Agricultural & Heavy Machinery Parts",
-    description: "Durable casting components engineered specifically for agricultural, forestry, and heavy industrial equipment.",
+    title: "Agricultural & Sugar Mill Spare Parts",
+    description: "Durable spare parts for agricultural machinery and sugar mills, including rollers, shafts, and custom components.",
     image: "/pic3.png" 
   },
   {

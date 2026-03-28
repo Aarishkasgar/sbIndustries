@@ -86,7 +86,7 @@ const About = () => {
               {/* Founder Image Placeholder */}
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-brand-accent shadow-xl">
                 <img 
-                  src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                  src="sbowner.jpeg" 
                   alt="Founder of S.B. Industries" 
                   className="w-full h-full object-cover"
                 />
